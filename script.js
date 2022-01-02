@@ -6,7 +6,6 @@ function primeIt() {
   for (let i = 0; i < binary.length; i++) { 
     addTo = addTo * 2;
   }
-  console.log(addTo)
   summary();
 }
 
@@ -28,4 +27,7 @@ function summary() {
     }
     addTo = addTo / 2;
   }
+}
+function clear() {
+  
 }

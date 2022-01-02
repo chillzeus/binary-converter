@@ -1,17 +1,35 @@
-<div id="display"></div>
+<div style="font-size: 30px;" id="display">enter binary</div>
+<br />
+
+<script src="script.js"></script>
 
 <button onclick="zero()"><h1>0</h1></button>
 <button onclick="one()"><h1>1</h1></button>
 <button onclick="primeIt()"><h1>Sum</h1></button>
+<br />
+<button class="clearButton" onclick="clear()"><h3>Clear</h3></button>
 <!--<button onclick="primeIt()">Sum it up!</button>-->
 
 <style>
+body {
+   font-family: monospace;
+}
 button {
-   width: 90px;
+   width: 100%;
+   max-width: 90px;
    height: 90px;
    size: 30;
+   margin: 5px;
 }
 h1 {
    font-size: 32px;
+}
+.display {
+   font-size: 50px;
+}
+.clearButton{
+   height: 50px;
+   width: 100%;
+   max-width: 300px;
 }
 </style>
